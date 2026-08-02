@@ -1,0 +1,28 @@
+{
+  "repo": "tradelanes",
+  "feeds": [
+    {
+      "source": "https://tradelanes.co/",
+      "feed_url": "https://tradelanes.co/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.tradelanes.co/blog/rss.xml",
+      "feed_url": "https://www.tradelanes.co/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.tradelanes.co/blog",
+      "feed_url": "https://www.tradelanes.co/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

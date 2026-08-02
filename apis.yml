@@ -1,7 +1,14 @@
 aid: tradelanes
 name: TradeLanes
-description: TradeLanes is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TradeLanes is a trade execution and operational-intelligence platform for
+  U.S. exporters, freight forwarders, and drayage teams. Its Vessel Schedule
+  Report (VSR) delivers a daily delta-only view of ERD and CY cutoff changes
+  across 40+ U.S. container terminals, Ava adds decision intelligence that
+  evaluates whether a schedule change affects a specific booking
+  (safe-to-commit / safe-to-dispatch), and the eLane Trade Execution Suite
+  manages shipments, documents, and tasks. A Techstars portfolio company
+  headquartered in Walnut Creek, CA; no public developer API is documented.
 url: https://raw.githubusercontent.com/api-evangelist/tradelanes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.tradelanes.co/hubfs/Assets%20-%202023/eybrow-logo.png
 tags:
 - Company
+- Logistics
+- Shipping
+- Trade
+- Supply Chain
+- Exports
+- Vessel Schedules
+- Freight Forwarding
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,38 @@ maintainers:
 common:
 - type: Website
   url: https://tradelanes.co/
+- type: Blog
+  url: https://www.tradelanes.co/blog
+- type: BlogRSS
+  url: https://www.tradelanes.co/blog/rss.xml
+- type: Pricing
+  url: https://www.tradelanes.co/pricing
+- type: TermsOfService
+  url: https://www.tradelanes.co/terms
+- type: PrivacyPolicy
+  url: https://www.tradelanes.co/privacy-policy
+- type: Support
+  url: https://www.tradelanes.co/contact
+- type: GitHubOrganization
+  url: https://github.com/TradeLanes
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tradelanes/
+- type: Login
+  url: https://elane.tradelanes.co/
+- type: Security
+  url: https://www.tradelanes.co/disclosure
+- type: VulnerabilityDisclosure
+  url: security/tradelanes-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/tradelanes-domain-security.yml
+- type: ChangeLog
+  url: changelog/tradelanes-changelog.yml
+- type: ReleaseNotes
+  url: https://www.tradelanes.co/release-notes
+- type: LLMsTxt
+  url: llms/tradelanes-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.tradelanes.co/release-notes
+scheme: dated-release-notes
+current_version: null
+notes: >-
+  TradeLanes publishes product release notes on a dedicated page
+  ("Notes published with TradeLanes software releases to provide
+  customers with a brief overview of the changes"), filterable by
+  product topic. The public archive is thin: one dated entry was
+  visible at capture time. Release cadence for the newer VSR/Ava
+  products appears to flow through the blog instead.
+entries:
+- date: '2024-01-23'
+  title: DataComplete - Collect & Validate Toolkit
+  url: https://www.tradelanes.co/release-notes/datacomplete
+  author: Vijay Harrell
+  topics:
+  - Collect & Validate Toolkit
+  breaking: false
+  highlights:
+  - Systematic shipment data collection, fast validation, and adaptive
+    workflows for export managers (DataComplete toolkit release).
