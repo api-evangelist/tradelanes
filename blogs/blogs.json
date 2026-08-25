@@ -3,11 +3,7 @@
   "feeds": [
     {
       "source": "https://tradelanes.co/",
-      "feed_url": "https://tradelanes.co/",
-      "title": "",
-      "saved": 0,
-      "method": "none",
-      "error": "fetch_failed: URLError"
+      "error": "URLError"
     },
     {
       "source": "https://www.tradelanes.co/blog/rss.xml",
@@ -24,6 +20,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-08-15T12:11:08Z"
+  "post_count": 12,
+  "fetched": "2026-08-22T20:20:02Z"
 }
